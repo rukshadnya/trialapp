@@ -11,7 +11,7 @@ public class TrialAppApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello World.. we are successfully deployed on Azure Cloud.. ";
+		return "Hello Team.. we are successfully deployed on Azure Cloud.. ";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(TrialAppApplication.class, args);
